@@ -10,9 +10,10 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                  git branch: 'main', url: 'https://github.com/Syed-894/Sample_node_app.git'
+                checkout scm
             }
         }
+
 
         stage('Build Docker Image') {       
             steps {
