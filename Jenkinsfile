@@ -3,7 +3,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'sample-node-app'
         IMAGE_TAG = "${BUILD_NUMBER}"
-        NEXUS_REPO = 'http://4.240.99.44:8081'
+        NEXUS_REPO = 'http://4.240.99.44:8082'
         DOCKER_CREDENTIALS_ID = 'nexus-cred'
     }
 
