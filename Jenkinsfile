@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/Syed-894/Sample_node_app.git'
+               git branch: 'main', url: 'https://github.com/Syed-894/Sample_node_app.git'
             }
         }
 
