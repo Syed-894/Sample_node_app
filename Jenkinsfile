@@ -38,7 +38,7 @@ pipeline {
         success {
             slackSend (
                 channel: '#new-channel',
-                message: "✅ Build and push successful for ${IMAGE_NAME}:${IMAGE_TAG}",
+                message: "✅ Build and push successfull for ${IMAGE_NAME}:${IMAGE_TAG}",
                 color: 'good'
             )
         }
